@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #C6E5E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#split{
+    color: #004b4e;
+    letter-spacing: 5px;
+    
+    font-size: 30px;
+
+}
+.container{
+    height: 450px;
+    width: 650px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 10px 10px 80px 10px rgba(255, 255, 255, 0.305);
+}
+#left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    
+    
+}
+.bill{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+.bill h1{
+    font-size: 30px;
+    font-family: kinta;
+    margin-left: 20px;
+
+}
+.bill input{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    width: 90%;
+    background-color: #77bcbef1;
+    font-size: 20px;
+    
+}
+.tips{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: wheat; */
+}
+.tips h2{
+    font-size: 30px;
+    font-family: kinta;
+}
+.row{
+    padding-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+.row h4{
+    font-size: 22px;
+    font-family: kinta;
+    background-color: #004b4ed1;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    color: white;
+    transition: all ease .3s;
+    cursor: pointer;
+    border: 1px solid white;
+
+}
+.row h4:hover{
+    background-color: #fff;
+    color: #004b4e;
+    border: 1px solid #004b4e;
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.people input{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    width: 90%;
+    background-color: #77bcbef1;
+    font-size: 20px;
+
+}
+.people h3{
+    font-size: 22px;
+    font-family: kinta;
+}
+#right{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #004b4e;
+    margin: 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.tipAmount{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.tipAmount h2{
+    font-size: 23px;
+    font-family: kinta;
+    
+}
+.tipAmount h1{
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: black;
+}
+.totalAmount{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.totalAmount h1{
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: black;
+
+}
+.totalAmount h2{
+    font-size: 23px;
+    font-family: kinta;
+
+}
+#right button{
+    padding: 15px 40px;
+    background-color: #004b4e;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 70px 10px rgba(255, 255, 255, 0.308);
+    transition: all ease .3s;
+    border: 1px solid rgba(255, 255, 255, 0.623);
+    font-family: kinta;
+    cursor: pointer;
+}
+#right button:hover{
+    background-color: #fff;
+    color: #004b4e;
+    border: 1px solid #004b4e;
+}
+.but{
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    flex-direction: column;
+}
+
+
